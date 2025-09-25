@@ -1,0 +1,44 @@
+/* * {
+    border: 5px solid red;
+} */
+
+h1 {
+	color: red;
+	font-size: 30px;
+	font-weight: 400;
+    text-align: center;
+    
+}
+p {
+	font-family: "Zalando Sans", sans-serif;
+}
+body  {
+    color:#7c2e66;
+  font-family: "Zalando Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-size:15px;
+  font-weight:150;
+  font-style: normal;
+  background-color: rgb(138, 136, 136);
+}
+.container {
+    background-color: white;
+    max-width: 1024px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35)
+                     0px 5px 15px;
+    margin: 20px auto;
+    padding: 5px 30px;
+}
+img {
+	width: 150px;
+	border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+} 
+a {
+    color:#382081;
+    font-family: Impact;
+}
+a:hover {
+    color:blue;
+}
