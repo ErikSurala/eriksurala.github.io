@@ -5,22 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Zalando+Sans:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
+    <div id="widescreen" class="big">widescreen</div>
+    <div id="normal" class="big">normal</div>
+    <div id="tablet" class="big">tablet</div>
+    <div id="smartphone" class="big">smartphone</div>
+    <div id="landscape" class="big">landscape</div>
     <div class="container">
         <nav id="navbar">
     <div class="logo">
         Moje <span class="text-primary">firma</span>
     </div>
     <ul>
-        <li><a href="rozdeleni.html">Členění parfémů</a></li>
-        <li><a href="about.html">O nás</a></li>
-        <li><a href="kontakt.html">Kontakt</a></li>
+        <li><a href="rozdeleni.html"><i class="fa-solid fa-puzzle-piece"></i> <span class="text_menu">Členění parfémů</span></a></li>
+        <li><a href="about.html"><i class="fa-solid fa-clipboard"></i><span class="text_menu">O nás</span></a></li>
+        <li><a href="kontakt.html"><i class="fa-solid fa-phone"></i><span class="text_menu">Kontakt</span></a></li>
     </ul>
 </nav>
     <header>
@@ -84,6 +86,17 @@
             </ul>
         </section>
     </main>
+    <hr>
+   <footer>
+    <p>Validace stránky</p>
+    <a href="https://validator.w3.org/nu/?doc=https://eriksurala.github.io" target="_blank">
+        <img class="validace" src="https://www.w3.org/Icons/valid-html20.png" alt="Valid HTML2" title="Valid HTML2">
+    </a>
+    <a href="https://jigsaw.w3.org/css-validator/validator?uri=eriksurala.github.io" target="_blank">
+        <img class="validace" src="https://www.w3.org/Icons/valid-css-blue.png" alt="Valid CSS" title="Valid CSS">
+    </a>
+</footer>
+
     </div>
 </body>
 </html>
