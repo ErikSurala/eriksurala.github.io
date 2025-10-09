@@ -86,9 +86,12 @@ a:hover {
     font-weight: bold;
 }
 
-@media(max-width:500px) {
+@media(max-width:768px) {
+    .text_menu {
+        display: none;
+    }
     body {
-        background-color: red;
+        background-color: rgb(31, 28, 28);
     }
 
     #smartphone {
@@ -96,7 +99,7 @@ a:hover {
     }
 }
 
-@media(min-width: 501px) and (max-width:768px) {
+/* @media(min-width: 501px) and (max-width:768px) {
     body {
         background-color: green;
     }
@@ -104,9 +107,9 @@ a:hover {
     #tablet {
         display: block;
     }
-}
+} */
 
-@media(min-width: 769px) and (max-width:1200px) {
+/* @media(min-width: 769px) and (max-width:1200px) {
     body {
         background-color: cyan;
     }
@@ -134,4 +137,4 @@ a:hover {
     #landscape {
         display: block;
     }
-}
+} */
